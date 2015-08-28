@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱健康</title>
+	<link href="stylesheets/index.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div class="nav clearfix">
+			<img class="logo" src="images/logo-home.png">
+			<ul class="nav-bar clearfix">
+				<li class="active"><a href="">首页</a></li>
+				<li><a href="">健康计划</a></li>
+				<li><a href="">健康管理</a></li>
+				<li><a href="">家人关怀</a></li>
+				<li><a href="">健康档案</a></li>
+			</ul>			
+			<div class="message right" >	
+				<img src="images/message.png">
+				<span class="dote"></span>	
+			</div>
+			<div class="user">
+				<img class="userlogo left" src="images/default.png">
+				<p id="user-name">weijianxing</p>
+				<span></span>
+				<ul id="user-menu">
+					<li><a href="">账号设置</a></li>
+					<li><a href="">个人信息</a></li>
+					<li><a href="">我的设备</a></li>
+					<li><a href="">退出</a></li>
+				</ul>
+			</div>			
+		</div>
+	</header>
+	<div class="main clearfix">
+		<div class=" allchart left">
+			<h3>我加入爱健康以来</h3>
+			<div class="ball clearfix">
+				<div class="ball-bg bg1"></div>
+				<div class="ball-bg bg2"></div>
+				<div class="ball-o">
+					<div class="ball-o-i">
+						<div class="ball-o-i-i">
+							<p>共燃烧</p>
+							<p><span>12527</span>卡</p>
+						</div>
+					</div>
+				</div>
+				<div class="ball-g">
+					<div class="ball-g-i">
+						<div class="ball-g-i-i">
+							<p>已运动</p>
+							<p><span>115</span>天</p>
+						</div>
+					</div>
+				</div>
+				<div class="ball-b">
+					<div class="ball-b-i">
+						<p>积累路程</p>
+						<p><span>1543</span> km</p>
+					</div>
+				</div>
+			</div>
+			<div class="box clearfix">
+			   	<ul class="bar-nav">
+			   		<li class="bar bar1">智能配件
+				</li>
+			   		<li class="bar active bar2">手机</li>
+			   	</ul>
+			    
+				<div class="detail clearfix">
+					<div style="display:none">
+						<div id="J_Pie3" class="pie-chart">
+							<h3>运动时长</h3>
+							<p><span>0</span>分钟</p>
+						</div>
+						<div class="bar-chart">
+							<p>最近五次燃烧的卡路里</p>
+							<div id="demo1">
+									
+							</div>							
+						</div>
+						
+						<div class="allicon">
+							<div class="icon left">
+								<div class="icon-bg">
+									<img src="images/foot-icon.png">
+								</div>							
+								<div class="numb">
+									<p>步数</p>
+									<p><span>0</span>步</p>
+								</div>
+							</div>
+							<div class="icon left">
+								<div class="icon-bg">
+									<img src="images/hint-icon.png">
+								</div>							
+								<div class="numb">
+									<p>距离</p>
+									<p><span>0</span>公里</p>
+								</div>
+							</div>
+							<div class="icon left">
+								<div class="icon-bg">
+									<img src="images/fire-icon.png">
+								</div>							
+								<div class="numb">
+									<p>燃烧</p>
+									<p><span>0</span>卡</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div id="J_Pie2" class="pie-chart">
+							<h3>运动时长</h3>
+							<p><span>0</span>分钟</p>
+						</div>
+						<div class="bar-chart">
+							<p>最近五次燃烧的卡路里</p>
+							<p class="bar-chart-move">亲，您还没有运动数据哦！</p>
+						</div>
+						
+						<div class="allicon">
+							<div class="icon left">
+								<div class="icon-bg">
+									<img src="images/foot-icon.png">
+								</div>							
+								<div class="numb">
+									<p>步数</p>
+									<p><span>0</span>步</p>
+								</div>
+							</div>
+							<div class="icon left">
+								<div class="icon-bg">
+									<img src="images/hint-icon.png">
+								</div>							
+								<div class="numb">
+									<p>距离</p>
+									<p><span>0</span>公里</p>
+								</div>
+							</div>
+							<div class="icon left">
+								<div class="icon-bg">
+									<img src="images/fire-icon.png">
+								</div>							
+								<div class="numb">
+									<p>燃烧</p>
+									<p><span>0</span>卡</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="check">
+				<ul class="check-nav">
+					<li class="active">运动量</li>
+					<li>体重</li>
+					<li id="xuey">血压</li>
+					<li>血糖</li>
+				</ul>
+				<div class="checks clearfix">
+					<div>
+						<div class="checkdate">
+							<ul class="clearfix">
+								<li class="today">
+									<p>当天</p>
+									<span></span>
+								</li>
+								<li class="seven">
+									<p>7天</p>
+									<span></span>
+								</li>
+								<li class="mouth active">
+									<p>30天</p>
+									<span></span>
+								</li>	
+						</ul>
+						</div>
+						<div class="chartsdata">
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲1，您还没有运动曲线哦！
+							    </p>						
+							</div>
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲2，您还没有运动曲线哦！
+								</p>						
+							</div>
+							<div class="charts">
+								<p class="charts-move">亲3，您还没有运动曲线哦！
+								</p>						
+							</div>
+						</div>
+					</div>
+					<div style="display:none">
+						<div class="checkdate">
+							<ul class="clearfix">
+								<li class="today">
+									<p>当天</p>
+									<span></span>
+								</li>
+								<li class="seven">
+									<p>7天</p>
+									<span></span>
+								</li>
+								<li class="mouth active">
+									<p>30天</p>
+									<span></span>
+								</li>	
+							</ul>
+						</div>
+						<div class="chartsdata">
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲1，您还没有体重曲线哦！
+							    </p>						
+							</div>
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲2，您还没有体重曲线哦！
+								</p>						
+							</div>
+							<div class="charts">
+								<p class="charts-move">亲3，您还没有体重曲线哦！
+								</p>						
+							</div>
+						</div>
+					</div>
+					<div style="display:none">
+						<div class="checkdate">
+							<ul class="clearfix">
+								<li class="today">
+									<p>当天</p>
+									<span></span>
+								</li>
+								<li class="seven" id="xtseven">
+									<p>7天</p>
+									<span></span>
+								</li>
+								<li class="mouth active">
+									<p>30天</p>
+									<span></span>
+								</li>	
+							</ul>
+						</div>
+						<div class="chartsdata">
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲1，您还没有血压曲线哦！
+							    </p>						
+							</div>
+							<div class="charts" id="xychart1" style="display:none">
+														
+							</div>
+							<div class="charts" id="xychart2">
+														
+							</div>
+						</div>
+					</div>
+					<div style="display:none">
+						<div class="checkdate">
+							<ul class="clearfix">
+								<li class="today">
+									<p>当天</p>
+									<span></span>
+								</li>
+								<li class="seven">
+									<p>7天</p>
+									<span></span>
+								</li>
+								<li class="mouth active">
+									<p>30天</p>
+									<span></span>
+								</li>	
+							</ul>
+						</div>
+						<div class="chartsdata">
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲1，您还没有血糖曲线哦！
+							    </p>						
+							</div>
+							<div class="charts" style="display:none">
+								<p class="charts-move">亲2，您还没有血糖曲线哦！
+								</p>						
+							</div>
+							<div class="charts">
+								<p class="charts-move">亲3，您还没有血糖曲线哦！
+								</p>						
+							</div>
+						</div>
+					</div>
+					
+			    </div>
+			</div>
+		</div>
+		<div class="description right">
+			<div class="darenbang">
+				<p class="drb-nav"><span></span>运动达人榜</p>
+				<ul class="drb-time">
+					<li>昨天</li>
+					<li class="active">今天</li>
+					<li>7天</li>
+					<li>所有</li>
+				</ul>
+				<div class="drbdetail">
+					<div style="display:none"></div>
+					<div ></div>
+					<div style="display:none"></div>
+					<div class="drb-all clearfix" style="display:none">
+						<div class="rank clearfix">
+							<span>1</span>
+							<img src="images/default.png">
+							<div class="data">
+								<p class="name">小魏
+									<b class="vale">1543.72公里</b>
+								</p>								
+								<div class="rank-bg">
+									<div class="rank-j"></div>
+								</div>
+							</div>
+						</div>
+						<div class="rank clearfix">
+							<span>2</span>
+							<img src="images/2.jpg">
+							<div class="data">
+								<p class="name clearfix">yangyan947@163.com
+									<b class="vale">25.54公里</b>
+								</p>
+								
+								<div class="rank-bg">
+									<div class="rank-j"></div>
+								</div>
+							</div>
+						</div>
+						<div class="rank clearfix">
+							<span>3</span>
+							<img src="images/3.jpg">
+							<div class="data">
+								<p class="name">小李快跑
+									<b class="vale">3.17公里</b>
+								</p>								
+								<div class="rank-bg">
+									<div class="rank-j"></div>
+								</div>
+							</div>
+						</div>
+						<div class="rank clearfix">
+							<span>4</span>
+							<img src="images/4.jpg">
+							<div class="data">
+								<p class="name">anne
+									<b class="vale">0.83公里</b>
+								</p>								
+								<div class="rank-bg">
+									<div class="rank-j"></div>
+								</div>
+							</div>
+						</div>
+						<div class="rank clearfix">
+							<span>5</span>
+							<img src="images/default.png">
+							<div class="data">
+								<p class="name">赵芳华
+									<b class="vale">0.81公里</b>
+								</p>								
+								<div class="rank-bg">
+									<div class="rank-j"></div>
+								</div>
+							</div>
+						</div>
+						<div class="rank clearfix">
+							<span>6</span>
+							<img src="images/6.jpg">
+							<div class="data">
+								<p class="name">120402
+									<b class="vale">0.08公里</b>
+								</p>								
+								<div class="rank-bg">
+									<div class="rank-j"></div>
+								</div>
+							</div>
+						</div>						
+					</div>
+					</div>
+			</div>
+			<div class="grade">
+				<p>本周成绩</p>
+				<div id="J_Pie1" class="grade-mark">
+					<h3>23%</h3>
+					<p>计划完成度</p>
+				</div>
+				<div class="grade-ne clearfix">
+					<ul>
+						<li>
+							<p class="grade-le">长辈关爱</p>
+							<div class="grade-mask"></div>
+							<p>7次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">晚辈关爱</p>
+							<div class="grade-mask"></div>
+							<p>7次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">夫妻浪漫</p>
+							<div class="grade-mask"></div>
+							<p>7次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">步行</p>
+							<div class="grade-mask"></div>
+							<p>12公里/周</p>
+						</li>
+						<li>
+							<p class="grade-le">跑步</p>
+							<div class="grade-mask"></div>
+							<p>22公里/周</p>
+						</li>
+						<li>
+							<p class="grade-le">骑行</p>
+							<div class="grade-mask"></div>
+							<p>33公里/周</p>
+						</li>
+						<li>
+							<p class="grade-le">篮球</p>
+							<div class="grade-mask"></div>
+							<p>3次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">控烟</p>
+							<div class="grade-mask"></div>
+							<p>1盒/周</p>
+						</li>
+						<li>
+							<p class="grade-le">限酒</p>
+							<div class="grade-mask"></div>
+							<p>1次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">加班</p>
+							<div class="grade-mask"></div>
+							<p>1次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">熬夜</p>
+							<div class="grade-mask"></div>
+							<p>1次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">体重测量</p>
+							<div class="grade-mask"></div>
+							<p>7次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">血压测量</p>
+							<div class="grade-mask"></div>
+							<p>7次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">血糖测量</p>
+							<div class="grade-mask"></div>
+							<p>1次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">电影</p>
+							<div class="grade-mask"></div>
+							<p>3次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">音乐</p>
+							<div class="grade-mask"></div>
+							<p>3次/周</p>
+						</li>
+						<li>
+							<p class="grade-le">郊游</p>
+							<div class="grade-mask"></div>
+							<p>1次/周</p>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="news">
+				<h4>健康小贴士</h4>     
+            	<p>
+            		<a href="/mobileapi/newsDetail.do?newsId=836">长期刷朋友圈接收碎片化知识有什么弊端？</a>
+            	</p>
+            	<p>你所接受的一切信息，构成了你的思维方式。所以，长期接受碎片信息的后果，就是让你的思维变得狭隘，难以进行复杂的思考。
+            	</p>        
+           		<p>
+           			<a href="/mobileapi/newsDetail.do?newsId=835">从周董喜得女谈新生儿如何护理</a>
+           		</p>
+            	<p>周董终于荣升奶爸，喜得小公主!这一消息近两日让多少歌迷振奋不已!不过作为新新奶爸的周董在育儿这条路上还是前路漫漫哟~，小编就将为各位新爸新妈详细介绍一下新生儿的护理攻略。
+            	</p>        
+            	<p>
+            		<a href="/mobileapi/newsDetail.do?newsId=834">瑞典人，跑步民族中的跑步机</a>
+            	</p>
+            	<p>瑞典人爱健身，爱跑步。跑步绝对算是另一大国民爱好了。无论阴晴雨雪，街道、公园、森林、湖边，总有着风一般掠过的跑步爱好者。
+            	</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+	    <p id='link'>
+	        <a target="_blank" href="/footer/aboutUs.do">关于我们</a>
+	        <a target="_blank" href="/footer/contactUs.do">联系我们</a>
+	    </p>
+    	<p>Copyright © 2015 爱健康管理平台</p>
+	</footer>
+</body>
+
+<script type="text/javascript" src="javascripts\jquery-2.1.3.js"></script>
+<script type="text/javascript" src="javascripts\index.js"></script>
+ <script charset="utf-8" src="http://g.tbcdn.cn/kissy/k/1.4.1/seed-min.js"></script>
+</html>

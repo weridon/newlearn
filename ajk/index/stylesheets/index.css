@@ -1,0 +1,1146 @@
+@charset "UTF-8";
+/* line 5, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/index.scss */
+.right {
+  float: right;
+}
+
+/* line 6, ../sass/index.scss */
+.left {
+  float: left;
+}
+
+/* line 9, ../sass/index.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/index.scss */
+body {
+  background-color: #f8faf3;
+  color: #666;
+  font-size: 12px;
+}
+
+/* line 17, ../sass/index.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+
+/* line 21, ../sass/index.scss */
+.clearfix:before {
+  content: ' ';
+  visibility: hidden;
+  display: table;
+}
+
+/* line 26, ../sass/index.scss */
+.clearfix:after {
+  content: ' ';
+  visibility: hidden;
+  display: table;
+  clear: both;
+}
+
+/* line 32, ../sass/index.scss */
+header {
+  width: 100%;
+  min-width: 1080px;
+  padding-top: 5px;
+  border-bottom: 3px solid #bed299;
+  background-color: #6f9f00;
+}
+/* line 38, ../sass/index.scss */
+header .nav {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+/* line 42, ../sass/index.scss */
+header .nav .logo {
+  float: left;
+  width: 120px;
+}
+/* line 46, ../sass/index.scss */
+header .nav .nav-bar {
+  float: left;
+  margin-left: 16px;
+  font-size: 1.4em;
+}
+/* line 50, ../sass/index.scss */
+header .nav .nav-bar li {
+  float: left;
+  padding: 18px;
+  line-height: 0.3px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 55, ../sass/index.scss */
+header .nav .nav-bar li a {
+  color: #fff;
+}
+/* line 58, ../sass/index.scss */
+header .nav .nav-bar li:hover {
+  background: #638b15;
+}
+/* line 62, ../sass/index.scss */
+header .nav .nav-bar .active {
+  background: #507110;
+}
+/* line 66, ../sass/index.scss */
+header .nav .message {
+  margin-left: 5px;
+  padding-top: 10px;
+  cursor: pointer;
+  position: relative;
+}
+/* line 71, ../sass/index.scss */
+header .nav .message .dote {
+  position: absolute;
+  right: -4px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #f4aa28;
+}
+/* line 81, ../sass/index.scss */
+header .nav .user {
+  position: relative;
+  float: right;
+  margin-bottom: 7px;
+  padding-right: 20px;
+  background-color: #c0d29e;
+  -moz-border-radius: 1.83333em;
+  -webkit-border-radius: 1.83333em;
+  border-radius: 1.83333em;
+}
+/* line 88, ../sass/index.scss */
+header .nav .user p {
+  margin-top: 13px;
+  margin-left: 10px;
+  font-size: 1.29em;
+  display: inline-block;
+  cursor: pointer;
+  color: #709e18;
+}
+/* line 95, ../sass/index.scss */
+header .nav .user p:hover, header .nav .user p:focus {
+  color: #507110;
+}
+/* line 99, ../sass/index.scss */
+header .nav .user .userlogo {
+  width: 36px;
+  margin: 4px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 104, ../sass/index.scss */
+header .nav .user span {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  padding: 0;
+  border-color: #78a325 transparent transparent;
+  border-style: solid;
+  border-width: 8px 7px 0;
+}
+/* line 114, ../sass/index.scss */
+header .nav .user ul {
+  display: none;
+  position: absolute;
+  width: 140px;
+  left: 18px;
+  padding: 8px;
+  margin-top: 15px;
+  background: #fff;
+}
+/* line 122, ../sass/index.scss */
+header .nav .user ul li {
+  padding: 10px 0;
+  text-indent: 1em;
+  cursor: pointer;
+}
+/* line 126, ../sass/index.scss */
+header .nav .user ul li a {
+  color: #666;
+  text-indent: 2em;
+  font-size: 1px;
+}
+/* line 130, ../sass/index.scss */
+header .nav .user ul li a:hover, header .nav .user ul li a:focus {
+  color: #709e18;
+}
+
+/* line 139, ../sass/index.scss */
+.main {
+  width: 1000px;
+  margin: 30px auto;
+}
+/* line 142, ../sass/index.scss */
+.main .allchart {
+  width: 66%;
+  padding: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 2px 2px 6px #b8b8b8;
+  -webkit-box-shadow: 2px 2px 6px #b8b8b8;
+  box-shadow: 2px 2px 6px #b8b8b8;
+  background-color: #fff;
+}
+/* line 148, ../sass/index.scss */
+.main .allchart h3 {
+  text-align: center;
+  font-size: 22px;
+}
+/* line 152, ../sass/index.scss */
+.main .allchart .ball {
+  margin-bottom: 20px;
+  padding: 120px;
+  position: relative;
+}
+/* line 156, ../sass/index.scss */
+.main .allchart .ball .ball-bg {
+  width: 70px;
+  height: 70px;
+  background-color: #f3f3f3;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 162, ../sass/index.scss */
+.main .allchart .ball .bg1 {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  -moz-animation: bg1 3s linear 1s infinite alternate;
+  -webkit-animation: bg1 3s linear 1s infinite alternate;
+  animation: bg1 3s linear 1s infinite alternate;
+}
+@-moz-keyframes bg1 {
+  0% {
+    top: 20%;
+    left: 35%;
+  }
+  100% {
+    top: 13%;
+    left: 35%;
+  }
+}
+@-webkit-keyframes bg1 {
+  0% {
+    top: 20%;
+    left: 35%;
+  }
+  100% {
+    top: 13%;
+    left: 35%;
+  }
+}
+@keyframes bg1 {
+  0% {
+    top: 20%;
+    left: 35%;
+  }
+  100% {
+    top: 13%;
+    left: 35%;
+  }
+}
+/* line 178, ../sass/index.scss */
+.main .allchart .ball .bg2 {
+  position: absolute;
+  left: 70%;
+  top: 70%;
+  -moz-animation: bg2 4s linear 1s infinite alternate;
+  -webkit-animation: bg2 4s linear 1s infinite alternate;
+  animation: bg2 4s linear 1s infinite alternate;
+}
+@-moz-keyframes bg2 {
+  0% {
+    top: 70%;
+    left: 70%;
+  }
+  100% {
+    top: 60%;
+    left: 70%;
+  }
+}
+@-webkit-keyframes bg2 {
+  0% {
+    top: 70%;
+    left: 70%;
+  }
+  100% {
+    top: 60%;
+    left: 70%;
+  }
+}
+@keyframes bg2 {
+  0% {
+    top: 70%;
+    left: 70%;
+  }
+  100% {
+    top: 60%;
+    left: 70%;
+  }
+}
+/* line 194, ../sass/index.scss */
+.main .allchart .ball .ball-o {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: #f09f11;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: ball-o 3.5s linear 1s infinite alternate;
+  -webkit-animation: ball-o 3.5s linear 1s infinite alternate;
+  animation: ball-o 3.5s linear 1s infinite alternate;
+}
+/* line 204, ../sass/index.scss */
+.main .allchart .ball .ball-o .ball-o-i {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  background-color: #f1a217;
+  overflow: hidden;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 211, ../sass/index.scss */
+.main .allchart .ball .ball-o .ball-o-i .ball-o-i-i {
+  width: 110px;
+  height: 110px;
+  background-color: #f3a722;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 216, ../sass/index.scss */
+.main .allchart .ball .ball-o .ball-o-i .ball-o-i-i p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 5px;
+  line-height: 200%;
+  color: #fff;
+}
+/* line 224, ../sass/index.scss */
+.main .allchart .ball .ball-o .ball-o-i .ball-o-i-i:hover {
+  background-color: #fff;
+}
+/* line 226, ../sass/index.scss */
+.main .allchart .ball .ball-o .ball-o-i .ball-o-i-i:hover p {
+  color: #f1a217;
+}
+/* line 231, ../sass/index.scss */
+.main .allchart .ball .ball-o .ball-o-i:hover {
+  background-color: #fff;
+}
+/* line 235, ../sass/index.scss */
+.main .allchart .ball .ball-o:hover {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+@-moz-keyframes ball-o {
+  0% {
+    top: 20%;
+    left: 10%;
+  }
+  100% {
+    top: 10%;
+    left: 10%;
+  }
+}
+@-webkit-keyframes ball-o {
+  0% {
+    top: 20%;
+    left: 10%;
+  }
+  100% {
+    top: 10%;
+    left: 10%;
+  }
+}
+@keyframes ball-o {
+  0% {
+    top: 20%;
+    left: 10%;
+  }
+  100% {
+    top: 10%;
+    left: 10%;
+  }
+}
+/* line 249, ../sass/index.scss */
+.main .allchart .ball .ball-g {
+  position: absolute;
+  left: 42%;
+  top: 40%;
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  background-color: #7dbe0f;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: ball-g 4.5s linear 1s infinite alternate;
+  -webkit-animation: ball-g 4.5s linear 1s infinite alternate;
+  animation: ball-g 4.5s linear 1s infinite alternate;
+}
+/* line 259, ../sass/index.scss */
+.main .allchart .ball .ball-g .ball-g-i {
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  background-color: #81c117;
+  overflow: hidden;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 266, ../sass/index.scss */
+.main .allchart .ball .ball-g .ball-g-i .ball-g-i-i {
+  width: 90px;
+  height: 90px;
+  background-color: #85c51e;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 271, ../sass/index.scss */
+.main .allchart .ball .ball-g .ball-g-i .ball-g-i-i p {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 200%;
+  text-align: center;
+  color: #fff;
+}
+/* line 279, ../sass/index.scss */
+.main .allchart .ball .ball-g .ball-g-i .ball-g-i-i:hover {
+  background-color: #fff;
+}
+/* line 281, ../sass/index.scss */
+.main .allchart .ball .ball-g .ball-g-i .ball-g-i-i:hover p {
+  color: #7dbe0f;
+}
+/* line 286, ../sass/index.scss */
+.main .allchart .ball .ball-g .ball-g-i:hover {
+  background-color: #fff;
+}
+/* line 290, ../sass/index.scss */
+.main .allchart .ball .ball-g:hover {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+@-moz-keyframes ball-g {
+  0% {
+    top: 40%;
+    left: 42%;
+  }
+  100% {
+    top: 30%;
+    left: 42%;
+  }
+}
+@-webkit-keyframes ball-g {
+  0% {
+    top: 40%;
+    left: 42%;
+  }
+  100% {
+    top: 30%;
+    left: 42%;
+  }
+}
+@keyframes ball-g {
+  0% {
+    top: 40%;
+    left: 42%;
+  }
+  100% {
+    top: 30%;
+    left: 42%;
+  }
+}
+/* line 304, ../sass/index.scss */
+.main .allchart .ball .ball-b {
+  position: absolute;
+  left: 70%;
+  top: 25%;
+  width: 140px;
+  height: 140px;
+  padding: 10px;
+  background-color: #2ba8d7;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: ball-b 3s linear 1s infinite alternate;
+  -webkit-animation: ball-b 3s linear 1s infinite alternate;
+  animation: ball-b 3s linear 1s infinite alternate;
+}
+/* line 314, ../sass/index.scss */
+.main .allchart .ball .ball-b .ball-b-i {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  background-color: #32addb;
+  overflow: hidden;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 321, ../sass/index.scss */
+.main .allchart .ball .ball-b .ball-b-i p {
+  padding: 5px;
+  font-size: 1.3em;
+  line-height: 200%;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+/* line 329, ../sass/index.scss */
+.main .allchart .ball .ball-b .ball-b-i:hover {
+  background-color: #fff;
+}
+/* line 331, ../sass/index.scss */
+.main .allchart .ball .ball-b .ball-b-i:hover p {
+  color: #32addb;
+}
+/* line 336, ../sass/index.scss */
+.main .allchart .ball .ball-b:hover {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+@-moz-keyframes ball-b {
+  0% {
+    top: 25%;
+    left: 70%;
+  }
+  100% {
+    top: 22%;
+    left: 70%;
+  }
+}
+@-webkit-keyframes ball-b {
+  0% {
+    top: 25%;
+    left: 70%;
+  }
+  100% {
+    top: 22%;
+    left: 70%;
+  }
+}
+@keyframes ball-b {
+  0% {
+    top: 25%;
+    left: 70%;
+  }
+  100% {
+    top: 22%;
+    left: 70%;
+  }
+}
+/* line 350, ../sass/index.scss */
+.main .allchart .ball span {
+  font-size: 1.7em;
+  margin-right: 5px;
+}
+/* line 355, ../sass/index.scss */
+.main .allchart .box {
+  margin-bottom: 25px;
+  border: 1px solid #ececec;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 8px #d4d4d4;
+  -webkit-box-shadow: 0 0 8px #d4d4d4;
+  box-shadow: 0 0 8px #d4d4d4;
+}
+/* line 360, ../sass/index.scss */
+.main .allchart .box .bar {
+  float: left;
+  width: 50%;
+  padding: 9px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+/* line 369, ../sass/index.scss */
+.main .allchart .box .bar1 {
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/* line 372, ../sass/index.scss */
+.main .allchart .box .bar2 {
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 375, ../sass/index.scss */
+.main .allchart .box .active {
+  background-color: #85c51f;
+  color: #fff;
+}
+/* line 380, ../sass/index.scss */
+.main .allchart .box .detail .pie-chart {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 250px;
+  padding: 10px;
+}
+/* line 386, ../sass/index.scss */
+.main .allchart .box .detail .pie-chart h3 {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+/* line 393, ../sass/index.scss */
+.main .allchart .box .detail .pie-chart p {
+  position: absolute;
+  top: 150px;
+  left: 130px;
+  font-size: 1.2em;
+}
+/* line 398, ../sass/index.scss */
+.main .allchart .box .detail .pie-chart p span {
+  font-size: 1.2em;
+  color: #f5b036;
+}
+/* line 404, ../sass/index.scss */
+.main .allchart .box .detail .bar-chart {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 250px;
+  padding-top: 40px;
+}
+/* line 410, ../sass/index.scss */
+.main .allchart .box .detail .bar-chart p {
+  padding-left: 50px;
+  font-size: 1.2em;
+}
+/* line 414, ../sass/index.scss */
+.main .allchart .box .detail .bar-chart #demo1 {
+  width: 300px;
+  height: 200px;
+}
+/* line 417, ../sass/index.scss */
+.main .allchart .box .detail .bar-chart #demo1 p {
+  font-size: 1.3em;
+  font-size: bold;
+  color: #666;
+  text-indent: -1em;
+}
+/* line 424, ../sass/index.scss */
+.main .allchart .box .detail .bar-chart .bar-chart-move {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 30%;
+  font-size: 1.5em;
+  color: #ffa300;
+  -moz-animation: bar-chart-move 3.5s linear 1s infinite alternate;
+  -webkit-animation: bar-chart-move 3.5s linear 1s infinite alternate;
+  animation: bar-chart-move 3.5s linear 1s infinite alternate;
+}
+@-moz-keyframes bar-chart-move {
+  0% {
+    top: 30%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+@-webkit-keyframes bar-chart-move {
+  0% {
+    top: 30%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+@keyframes bar-chart-move {
+  0% {
+    top: 30%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+/* line 441, ../sass/index.scss */
+.main .allchart .box .detail .allicon {
+  float: left;
+  height: 80px;
+  width: 100%;
+  margin-top: 50px;
+}
+/* line 446, ../sass/index.scss */
+.main .allchart .box .detail .allicon .icon {
+  float: left;
+  width: 33%;
+  padding-left: 45px;
+}
+/* line 450, ../sass/index.scss */
+.main .allchart .box .detail .allicon .icon .icon-bg {
+  float: left;
+  width: 56px;
+  height: 56px;
+  background-color: #f3f3f3;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 457, ../sass/index.scss */
+.main .allchart .box .detail .allicon .icon .numb {
+  float: left;
+  padding: 8px 0;
+  margin-left: 8px;
+  font-size: 1.27em;
+}
+/* line 462, ../sass/index.scss */
+.main .allchart .box .detail .allicon .icon .numb span {
+  color: #f4aa28;
+  font-size: 1.5em;
+}
+/* line 471, ../sass/index.scss */
+.main .allchart .check {
+  width: 100%;
+  position: relative;
+}
+/* line 474, ../sass/index.scss */
+.main .allchart .check .check-nav {
+  position: relative;
+  left: 1px;
+  width: 66px;
+  float: left;
+}
+/* line 479, ../sass/index.scss */
+.main .allchart .check .check-nav li {
+  margin-bottom: 10px;
+  padding: 9px;
+  border: 1px solid #f4aa28;
+  font-size: 14px;
+  text-align: center;
+  background-color: #f4aa28;
+  color: #fff;
+  cursor: pointer;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+/* line 490, ../sass/index.scss */
+.main .allchart .check .check-nav .active {
+  border: 1px solid #ececec;
+  border-right-color: #fff;
+  background-color: #fff;
+  color: #f4aa28;
+}
+/* line 497, ../sass/index.scss */
+.main .allchart .check .checks {
+  float: left;
+  width: 550px;
+  border: 1px solid #ececec;
+}
+/* line 502, ../sass/index.scss */
+.main .allchart .check .checks .checkdate ul {
+  padding-left: 150px;
+}
+/* line 504, ../sass/index.scss */
+.main .allchart .check .checks .checkdate ul li {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 20px;
+  padding-top: 3px;
+  margin-left: 27px;
+  margin-top: 3px;
+  text-align: center;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+/* line 516, ../sass/index.scss */
+.main .allchart .check .checks .checkdate ul .active {
+  background-color: #85c51f;
+  color: #fff;
+}
+/* line 519, ../sass/index.scss */
+.main .allchart .check .checks .checkdate ul .active span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-style: solid;
+  border-width: 7px 6px 0 6px;
+  border-color: #85c51f transparent transparent transparent;
+}
+/* line 531, ../sass/index.scss */
+.main .allchart .check .checks .chartsdata .charts {
+  height: 300px;
+}
+/* line 533, ../sass/index.scss */
+.main .allchart .check .checks .chartsdata .charts .charts-move {
+  position: relative;
+  top: 55%;
+  left: 120px;
+  float: left;
+  text-align: center;
+  color: #ffa300;
+  font-size: 2em;
+  -moz-animation: charts-move 3.5s linear 1s infinite alternate;
+  -webkit-animation: charts-move 3.5s linear 1s infinite alternate;
+  animation: charts-move 3.5s linear 1s infinite alternate;
+}
+@-moz-keyframes charts-move {
+  0% {
+    top: 55%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+@-webkit-keyframes charts-move {
+  0% {
+    top: 55%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+@keyframes charts-move {
+  0% {
+    top: 55%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+/* line 552, ../sass/index.scss */
+.main .allchart .check .checks .chartsdata #xychart1 {
+  width: 550px;
+  margin: 0px auto;
+}
+/* line 556, ../sass/index.scss */
+.main .allchart .check .checks .chartsdata #xychart2 {
+  width: 550px;
+  margin: 0px auto;
+}
+/* line 564, ../sass/index.scss */
+.main .description {
+  width: 34%;
+  padding-left: 30px;
+}
+/* line 567, ../sass/index.scss */
+.main .description .darenbang {
+  padding: 20px 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -moz-box-shadow: 1px 1px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 4px #ccc;
+  box-shadow: 1px 1px 4px #ccc;
+}
+/* line 573, ../sass/index.scss */
+.main .description .darenbang .drb-nav {
+  text-align: center;
+  font-size: 1.5em;
+  color: #f4aa28;
+}
+/* line 577, ../sass/index.scss */
+.main .description .darenbang .drb-nav span {
+  width: 27px;
+  height: 22px;
+  display: inline-block;
+  background: url(../images/king.png) no-repeat -4px 0;
+}
+/* line 584, ../sass/index.scss */
+.main .description .darenbang ul {
+  margin: 20px 0 20px 20px;
+}
+/* line 586, ../sass/index.scss */
+.main .description .darenbang ul li {
+  width: 52px;
+  margin-left: 7px;
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 30px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 597, ../sass/index.scss */
+.main .description .darenbang ul .active {
+  background-color: #7ebf12;
+  color: #fff;
+}
+/* line 604, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+/* line 607, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank span {
+  float: left;
+  width: 30px;
+  height: 32px;
+  padding-top: 4px;
+  margin: 0 10px 0 20px;
+  background: url(../images/medal.png) no-repeat -3px -1px;
+  color: #fb7428;
+  text-align: center;
+  font-size: 1.3em;
+}
+/* line 618, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank img {
+  float: left;
+  width: 30px;
+  margin: 0 15px 0 0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 624, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank .data {
+  float: left;
+}
+/* line 626, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank .data .name {
+  width: 135px;
+  margin-bottom: 6px;
+  padding-left: 0;
+  font-size: 1.1em;
+  color: #666;
+}
+/* line 633, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank .data .vale {
+  float: right;
+  font-size: 1.1em;
+  color: #9dd542;
+}
+/* line 638, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank .data .rank-bg {
+  height: 10px;
+  background-color: #c6e5f1;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 642, ../sass/index.scss */
+.main .description .darenbang .drbdetail .drb-all .rank .data .rank-bg .rank-j {
+  width: 68%;
+  height: 10px;
+  background-color: #2aa8d7;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 654, ../sass/index.scss */
+.main .description .grade {
+  padding: 6px;
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 4px #ccc;
+  box-shadow: 1px 1px 4px #ccc;
+}
+/* line 658, ../sass/index.scss */
+.main .description .grade p {
+  padding: 9px;
+  font-size: 1.5em;
+  color: #85c51f;
+  text-align: center;
+}
+/* line 664, ../sass/index.scss */
+.main .description .grade .grade-mark {
+  position: relative;
+  margin-top: 10px;
+  height: 160px;
+  background-color: #deeeeb;
+}
+/* line 669, ../sass/index.scss */
+.main .description .grade .grade-mark h3 {
+  position: absolute;
+  top: 47px;
+  left: 44%;
+  font-size: 2em;
+  color: #f4aa28;
+}
+/* line 676, ../sass/index.scss */
+.main .description .grade .grade-mark p {
+  position: absolute;
+  top: 75px;
+  left: 34%;
+  font-size: 1.3em;
+  color: #11a385;
+}
+/* line 685, ../sass/index.scss */
+.main .description .grade .grade-ne ul {
+  margin-top: 20px;
+}
+/* line 688, ../sass/index.scss */
+.main .description .grade .grade-ne ul li p {
+  margin-right: 4px;
+  display: inline-block;
+  font-size: 1.2em;
+  color: #666;
+}
+/* line 694, ../sass/index.scss */
+.main .description .grade .grade-ne ul li .grade-le {
+  float: left;
+  width: 60px;
+  padding: 5px 0;
+  text-align: right;
+}
+/* line 700, ../sass/index.scss */
+.main .description .grade .grade-ne ul li .grade-mask {
+  height: 10px;
+  width: 140px;
+  margin-top: 10px;
+  float: left;
+  background-color: #f3f3f3;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 712, ../sass/index.scss */
+.main .description .news {
+  margin-top: 46px;
+  padding-left: 15px;
+}
+/* line 715, ../sass/index.scss */
+.main .description .news h4 {
+  color: #79a427;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 3px rgba(121, 164, 39, 0.38);
+}
+/* line 720, ../sass/index.scss */
+.main .description .news p {
+  margin: 15px 0;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+/* line 724, ../sass/index.scss */
+.main .description .news p a {
+  color: #85c51f;
+}
+
+/* line 732, ../sass/index.scss */
+footer {
+  width: 100%;
+  min-width: 1080px;
+  height: 100px;
+  border-top: 5px solid #709e18;
+  background-color: #c9d9b3;
+}
+/* line 738, ../sass/index.scss */
+footer p {
+  margin: 20px 0 14px 0;
+  text-align: center;
+}
+/* line 741, ../sass/index.scss */
+footer p a {
+  margin: 0 16px;
+  color: #709e18;
+  font-family: "瀹嬩綋" !important;
+  font-size: 1.3em;
+}
