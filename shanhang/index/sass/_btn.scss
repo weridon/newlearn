@@ -1,0 +1,18 @@
+.btn {
+	padding:8px 14px;
+	margin-right: 9px;
+	border: 0;
+	position: relative;
+	color: #fff;
+	background-color: #155b9c;
+	cursor: pointer;
+	@include border-radius(4px);
+	@include box-shadow(0 3px 0 #0a3e70);
+   	line-height: 1.428;
+    margin-bottom: 9px;
+    font-family: microsoft yahei;
+}
+.btn-yellow {
+	background-color: #ff8e00;
+	@include box-shadow(0 3px 0 #f06d1e);
+}
