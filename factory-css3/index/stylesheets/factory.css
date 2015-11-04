@@ -1,0 +1,400 @@
+/* line 5, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, D:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/factory.scss */
+body {
+  background-color: #899e97;
+}
+
+/* line 6, ../sass/factory.scss */
+.factory {
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 12, ../sass/factory.scss */
+.wuding1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 30px 63px;
+  border-color: transparent transparent #403f63 transparent;
+  position: absolute;
+  top: 100px;
+  left: 90px;
+}
+
+/* line 22, ../sass/factory.scss */
+.wuding2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 40px 87px;
+  border-color: transparent transparent #403f63 transparent;
+  position: absolute;
+  top: 90px;
+  left: 152px;
+}
+
+/* line 32, ../sass/factory.scss */
+.yancong1 {
+  width: 25px;
+  height: 85px;
+  position: absolute;
+  top: 44px;
+  left: 153px;
+  background-color: #e2c4a5;
+}
+
+/* line 40, ../sass/factory.scss */
+.yancong2 {
+  width: 25px;
+  height: 102px;
+  position: absolute;
+  top: 28px;
+  left: 200px;
+  background-color: #e2c4a5;
+}
+
+/* line 48, ../sass/factory.scss */
+.tiaowen1, .tiaowen2, .tiaowen3, .tiaowen4 {
+  width: 25px;
+  height: 10px;
+  position: absolute;
+  background-color: #be1e2d;
+}
+
+/* line 54, ../sass/factory.scss */
+.tiaowen1 {
+  top: 65px;
+  left: 153px;
+}
+
+/* line 59, ../sass/factory.scss */
+.tiaowen2 {
+  top: 85px;
+  left: 153px;
+}
+
+/* line 64, ../sass/factory.scss */
+.tiaowen3 {
+  top: 40px;
+  left: 200px;
+}
+
+/* line 69, ../sass/factory.scss */
+.tiaowen4 {
+  top: 60px;
+  left: 200px;
+}
+
+/* line 74, ../sass/factory.scss */
+.fangzi {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  background-color: #cfb499;
+}
+
+/* line 82, ../sass/factory.scss */
+.chuanghu1, .chuanghu2 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #403f63;
+  position: absolute;
+  background-color: #f5f19a;
+  -moz-animation: chuanghu 3s infinite alternate;
+  -webkit-animation: chuanghu 3s infinite alternate;
+  animation: chuanghu 3s infinite alternate;
+}
+
+@-moz-keyframes chuanghu {
+  0% {
+    background-color: #F5F19A;
+  }
+  100% {
+    background-color: #D3BD54;
+  }
+}
+@-webkit-keyframes chuanghu {
+  0% {
+    background-color: #F5F19A;
+  }
+  100% {
+    background-color: #D3BD54;
+  }
+}
+@keyframes chuanghu {
+  0% {
+    background-color: #F5F19A;
+  }
+  100% {
+    background-color: #D3BD54;
+  }
+}
+/* line 97, ../sass/factory.scss */
+.chuanghu1 {
+  top: 20%;
+  left: 10%;
+}
+
+/* line 101, ../sass/factory.scss */
+.chuanghu2 {
+  top: 20%;
+  left: 70%;
+}
+
+/* line 105, ../sass/factory.scss */
+.men {
+  width: 25px;
+  height: 40px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  background-color: #403f63;
+}
+
+/* line 113, ../sass/factory.scss */
+.shu {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+}
+/* line 117, ../sass/factory.scss */
+.shu .shugan {
+  width: 9px;
+  height: 37px;
+  position: absolute;
+  top: 13px;
+  left: 21px;
+  background-color: #754c29;
+}
+/* line 125, ../sass/factory.scss */
+.shu .shuye1, .shu .shuye2, .shu .shuye3 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background-color: #8dc63f;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+}
+/* line 132, ../sass/factory.scss */
+.shu .shuye1 {
+  top: -30px;
+  left: 4px;
+}
+/* line 137, ../sass/factory.scss */
+.shu .shuye2 {
+  top: -10px;
+  left: 19px;
+}
+/* line 142, ../sass/factory.scss */
+.shu .shuye3 {
+  top: -10px;
+  left: -5px;
+}
+
+/* line 148, ../sass/factory.scss */
+.huadai {
+  width: 100px;
+  height: 13px;
+  position: absolute;
+  top: 204px;
+  left: 240px;
+  background-color: #58595b;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* line 157, ../sass/factory.scss */
+.huadai .hualun1, .huadai .hualun2, .huadai .hualun3, .huadai .hualun4 {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #414042;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 163, ../sass/factory.scss */
+.huadai .hualun1:after, .huadai .hualun2:after, .huadai .hualun3:after, .huadai .hualun4:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 2px;
+  position: absolute;
+  top: 6px;
+  background-color: #f5f19a;
+}
+/* line 173, ../sass/factory.scss */
+.huadai .hualun1 {
+  left: 10px;
+  -moz-animation: hualun 0.5s 0.1s linear infinite normal;
+  -webkit-animation: hualun 0.5s 0.1s linear infinite normal;
+  animation: hualun 0.5s 0.1s linear infinite normal;
+}
+/* line 177, ../sass/factory.scss */
+.huadai .hualun2 {
+  left: 32px;
+  -moz-animation: hualun 0.5s 0.2s linear infinite normal;
+  -webkit-animation: hualun 0.5s 0.2s linear infinite normal;
+  animation: hualun 0.5s 0.2s linear infinite normal;
+}
+/* line 181, ../sass/factory.scss */
+.huadai .hualun3 {
+  left: 55px;
+  -moz-animation: hualun 0.5s 0.3s linear infinite normal;
+  -webkit-animation: hualun 0.5s 0.3s linear infinite normal;
+  animation: hualun 0.5s 0.3s linear infinite normal;
+}
+/* line 185, ../sass/factory.scss */
+.huadai .hualun4 {
+  left: 80px;
+  -moz-animation: hualun 0.5s 0.4s linear infinite normal;
+  -webkit-animation: hualun 0.5s 0.4s linear infinite normal;
+  animation: hualun 0.5s 0.4s linear infinite normal;
+}
+
+@-moz-keyframes hualun {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes hualun {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes hualun {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* line 196, ../sass/factory.scss */
+.zhizhu1, .zhizhu2 {
+  width: 10px;
+  height: 13px;
+  position: absolute;
+  background-color: #bcbec0;
+}
+
+/* line 202, ../sass/factory.scss */
+.zhizhu1 {
+  top: 217px;
+  left: 255px;
+}
+
+/* line 206, ../sass/factory.scss */
+.zhizhu2 {
+  top: 217px;
+  left: 320px;
+}
+
+/* line 211, ../sass/factory.scss */
+.wuti {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 184px;
+  left: 220px;
+  background-color: #403f63;
+  z-index: -1;
+  -moz-animation: goPackage 2s 0.3s linear infinite normal;
+  -webkit-animation: goPackage 2s 0.3s linear infinite normal;
+  animation: goPackage 2s 0.3s linear infinite normal;
+}
+
+@-moz-keyframes goPackage {
+  85% {
+    transform: translateX(120px);
+  }
+  100% {
+    transform: translateX(130px) translateY(25px) rotate(90deg);
+  }
+}
+@-webkit-keyframes goPackage {
+  85% {
+    transform: translateX(120px);
+  }
+  100% {
+    transform: translateX(130px) translateY(25px) rotate(90deg);
+  }
+}
+@keyframes goPackage {
+  85% {
+    transform: translateX(120px);
+  }
+  100% {
+    transform: translateX(130px) translateY(25px) rotate(90deg);
+  }
+}

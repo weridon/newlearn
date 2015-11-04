@@ -1,0 +1,229 @@
+@import "compass/reset";
+@import "compass/css3";
+body {
+	background-color: #899e97;
+}
+.factory {
+	width: 400px;
+	height: 350px;
+	margin: 0 auto;
+	position: relative;
+}
+.wuding1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 30px 63px;
+	border-color: transparent transparent #403f63 transparent;
+	position: absolute;
+	top: 100px;
+	left: 90px;
+}
+.wuding2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 40px 87px;
+	border-color: transparent transparent #403f63 transparent;
+	position: absolute;
+	top: 90px;
+	left: 152px;
+}
+.yancong1 {
+	width: 25px;
+	height: 85px;
+	position: absolute;
+	top:44px;
+	left: 153px;
+	background-color: #e2c4a5;
+}
+.yancong2 {
+	width: 25px;
+	height: 102px;
+	position: absolute;
+	top: 28px;
+	left: 200px;
+	background-color: #e2c4a5;
+}
+%tiaowen{
+	width: 25px;
+	height:10px;
+	position: absolute;
+	background-color: #be1e2d;
+}
+.tiaowen1 {
+	top: 65px;
+	left: 153px;
+	@extend %tiaowen;
+}
+.tiaowen2 {
+	top: 85px;
+	left: 153px;
+	@extend %tiaowen;
+}
+.tiaowen3 {
+	top: 40px;
+	left: 200px;
+	@extend %tiaowen;
+}
+.tiaowen4 {
+	top: 60px;
+	left: 200px;
+	@extend %tiaowen;
+}
+.fangzi {
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	top: 130px;
+	left:90px;
+	background-color: #cfb499;
+}
+.chuanghu1, .chuanghu2 {
+	width: 25px;
+	height: 25px;
+	border: 2px solid #403f63;
+	position: absolute;
+	background-color: #f5f19a;
+	@include animation(chuanghu 3s infinite alternate);
+}
+@include keyframes (chuanghu) {
+	0% {background-color: #F5F19A;}
+	100% {
+		background-color: #D3BD54;
+	}
+
+}
+.chuanghu1 {
+	top: 20%;
+	left: 10%;
+}
+.chuanghu2 {
+	top: 20%;
+	left: 70%;
+}
+.men {
+	width: 25px;
+	height: 40px;
+	position: absolute;
+	top:60%;
+	left:40%;
+	background-color: #403f63;
+}
+.shu {
+	position:absolute;
+	top: 180px;
+	left: 60px;
+	.shugan {
+		width: 9px;
+		height: 37px;
+		position:absolute;
+		top: 13px; 
+		left: 21px; 
+		background-color: #754c29;
+	}
+	%shuye {
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		background-color: #8dc63f;
+		@include border-radius(18px);
+	}
+	.shuye1 {
+		top: -30px;
+		left: 4px;
+		@extend %shuye;
+	}
+	.shuye2 {
+		top:-10px;
+	 	left:19px;
+		@extend %shuye;
+	}
+	.shuye3 {
+		top:-10px;
+	 	left:-5px;
+		@extend %shuye;
+	}
+}
+.huadai {
+	width: 100px;
+	height: 13px;
+	position: absolute;
+	top: 204px;
+	left: 240px;
+	background-color: #58595b;
+	@include border-top-right-radius(10px);
+	@include border-bottom-right-radius(10px);
+	.hualun1,.hualun2,.hualun3,.hualun4 {
+		width: 12px;
+		height: 12px;
+		position: absolute;
+		background-color: #414042;
+		@include border-radius(6px);
+		&:after {
+			content: "";
+			display: block;
+			width: 12px;
+			height: 2px;
+			position: absolute;	
+			top: 6px;		
+			background-color: #f5f19a;
+		}
+	}
+	.hualun1 {
+		left: 10px;
+		@include animation(hualun 0.5s 0.1s linear infinite normal);
+	}
+	.hualun2 {
+		left: 32px;
+		@include animation(hualun 0.5s 0.2s linear infinite normal);
+	}
+	.hualun3 {
+		left: 55px;
+		@include animation(hualun 0.5s 0.3s linear infinite normal);
+	}
+	.hualun4 {
+		left: 80px;
+		@include animation(hualun 0.5s 0.4s linear infinite normal);
+	}
+}
+@include keyframes (hualun) {
+	100% {
+		transform: rotate(360deg);
+	}
+
+}
+.zhizhu1,.zhizhu2 {
+	width: 10px;
+	height: 13px;
+	position: absolute;
+	background-color: #bcbec0;
+}
+.zhizhu1 {
+	top:217px;
+	left:255px;
+}
+.zhizhu2 {
+	top:217px;
+	left:320px;
+}
+
+.wuti {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top:184px;
+	left:220px;
+	background-color: #403f63;
+	z-index: -1;
+	@include animation(goPackage 2s 0.3s linear infinite normal);
+}
+@include keyframes (goPackage) {				
+	85% {
+		transform: translateX(120px);
+	}
+	100% {
+		transform: translateX(130px) translateY(25px) rotate(90deg);
+	}
+}
+
